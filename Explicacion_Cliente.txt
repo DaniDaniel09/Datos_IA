@@ -1,0 +1,68 @@
+Buenas tardes David,
+
+
+
+Te adjunto el resumen de lo que yo veo en las tablas que me comentas. Te paso una de ellas con las columnas en rojo que creo que serían necesarias.
+
+
+
+TABLA ALBARANES Gsibuffer Expedicion___Aparecen las líneas de las expediciones (documento que se le elabora cuando se realiza un pedido, son albaranes) Te pongo en rojo las columnas que nos podrían servir.
+
+
+
+TABLA PALETS CONFECCIONADOS VENTA GsiBuffer Palets Expedicion___Aparecen los palets confeccionados información. No es una tabla muy grande, creo que todas las columnas pueden servir, aparte nos informa de en que Expedición (Albaran) están cada palet y nos puede ayudar a relacionarlos.
+
+
+
+GsiSIIFacturas____ Listado de facturas enviadas a la AEAT. No saca mucha información, no veo columnas de IVA. De momento no veo muy útil cargarlo. Puede que en un futuro tenga sentido.
+
+
+
+Gsitgeneti____ No acabo de entender muy bien esta tabla, no hay una numeración que nosotros utilicemos. Puede que sea algo que se realice para las cargas, pero no veo ni número de palets, ni nada que pueda servir que no tengamos en otras tablas.
+
+
+
+Gsitmovalm Palet_____ contiene numeración de palets confeccionados, pero con mucha menos información que la tabla de arriba GsiBuffer Palets Expedición. Por tanto, no creo que sirva.
+
+
+
+Gsivpalcon _____ Lo mismo que la anterior palets confeccionados, con menos información que la otra tabla.
+
+
+
+GsivregconDetTrazaEntrada _____ Si no me equivoco debe de ser un listado de Contratos de compra de fruta de campo. La numeración es esa, no de entradas. Aunque las columnas de kg, bultos, que podrían servir para analizar están a cero. Tampoco aparecen precios ni nada que pueda servir.
+
+
+
+GsiregconDetTrazaPalet____ Deben ser palets de precalibrado creados (fruta que se recoge por tamaños para producirse en otro momento). Puede que en algún momento si hacemos algo para Dep. calidad esta tabla pueda servir.
+
+
+
+Purchase Header _____  Dentro del programa tenemos un apartado de Agencia Comercial (Son operaciones de compra-venta de otros productos hortofrutícolas que no pasan por el almacén). Por lo que veo, esta tabla relaciona el proveedor al que le compramos esa fruta, con el cliente al que se la vendemos. Faltaría ver, si muestra importes, si saca el subtotal de cada operación o si están las líneas de cada operación y podemos ver las compras/ventas por línea(producto). Si desglosa las lines y tenemos importes, puede servirnos para analizar la parte de Agente comercial.
+
+
+
+SALES INVOICE HEADER____ CREO QUE SON SUBTOTALES DE FACTURAS DE VENTA DIRECTAS. (SON FACTURAS QUE HACEMOS MANUALMENTE EN EL PROGRAMA, NO VIENEN DE UN ALBARAN).
+
+
+
+TABLA LINEAS FACTURAS DE VENTA DIRECTA SALES INVOICE LINE ___  LINEAS DE LAS FACTURAS DIRECTAS DE VENTA (PUEDEN O NO ESTAR RELACIONADAS CON LAS SALIDAS DE ALMACÉN). Tendríamos que tenerla en cuenta a la hora de sumar la facturación total de cada cliente, aunque no son ventas de albaranes, no dejan de ser ventas que se hacen al cliente por ajuste de precios, muestras, algún servicio extra…
+
+
+
+
+
+En cuanto a las FACTURAS DE VENTA me sigue faltando una tabla de Facturas de venta Expedición por líneas, que nos ayude a relacionarla con la tabla de albaranes (que pongo arriba) y una tabla de abonos de venta. De esta forma, creo que podríamos tener las ventas de los Clientes.
+
+
+
+En cuanto a las Entradas de campo, sigo sin ver ninguna tabla, la única la de los contratos, pero no he visto mucha información para analizar.
+
+
+
+Espero vuestras noticias,
+
+
+
+Saludos,
+
