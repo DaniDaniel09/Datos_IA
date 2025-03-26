@@ -1,0 +1,37 @@
+{
+    "all_fields": [
+        "IdentificadorGUID", "num_expedicion", "num_linea", "razon_empresa", "nif_empresa",
+        "direccion_empresa", "cp_empresa", "poblacion_empresa", "provincia_empresa",
+        "cod_pais_empresa", "pais_empresa", "cod_cliente", "nombre_cliente", "nif_cliente",
+        "direccion_cliente", "cp_cliente", "poblacion_cliente", "provincia_cliente",
+        "cod_pais_cliente", "pais_cliente", "cod_direccion_entrega", "nombre_entrega",
+        "direccion_entrega", "cp_entrega", "poblacion_entrega", "provincia_entrega",
+        "cod_pais_entrega", "pais_entrega", "fecha_expedicion", "fecha_entrega", "tipo_linea",
+        "cod_concepto", "descr_concepto", "cod_variedad_oficial", "descr_variedad_oficial",
+        "cod_envase", "descr_envase", "cod_tipo_confeccion", "descr_tipo_confeccion",
+        "cod_palet", "descr_palet", "calibre_oficial", "numero_frutos", "cod_marca",
+        "descr_marca", "numero_palets", "bultos_palet", "numero_bultos", "unidades",
+        "cod_unidad", "kilos_brutos", "kilos_netos", "kilos_oficiales", "precio",
+        "importe_bruto", "importe_neto", "tipo_precio", "abrev_tipo_confeccion",
+        "abrev_variedad_oficial", "cod_cliente_fact", "nombre_cliente_fact",
+        "cod_cliente_final", "nombre_cliente_final", "nif_cliente_final",
+        "direccion_cliente_final", "cp_cliente_final", "poblacion_cliente_final",
+        "provincia_cliente_final", "cod_pais_cliente_final", "pais_cliente_final",
+        "cod_transportista", "descr_transportista", "nif_transportista",
+        "direccion_transportista", "cp_transportista", "poblacion_transportista",
+        "provincia_transportista", "cod_pais_transportista", "pais_transportista",
+        "cod_escandallo", "descr_escandallo", "fecha_confeccion", "fecha_caducidad",
+        "num_albaran", "almacen_origen", "num_partida", "cod_palet_cargado",
+        "descr_palet_cargado", "num_palets_cargados", "cod_envase_palet_adic",
+        "descr_envase_palet_adic", "uds_entran_envase_palet_adic",
+        "uds_salen_envase_palet_adic", "importe_gasto", "fecha_albaran",
+        "cod_confeccion_oficial", "descr_confeccion_oficial", "descr_abrev_calibre_oficial",
+        "descr_abrev_marca", "cod_categoria", "descr_categoria", "envase_palet_retornable"
+    ],
+    "important_fields": [
+        "num_expedicion", "fecha_expedicion", "fecha_entrega", "numero_palets",
+        "cod_cliente", "nombre_cliente", "cod_concepto", "descr_concepto", "cod_envase",
+        "descr_envase", "unidades", "kilos_brutos", "kilos_netos", "importe_neto",
+        "cod_transportista", "descr_transportista", "num_albaran"
+    ]
+}
